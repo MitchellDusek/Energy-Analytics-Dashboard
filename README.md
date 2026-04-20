@@ -144,16 +144,25 @@ Post-2009, energy consumption stabilizes despite continued economic growth, indi
 ---
 
 ### Renewable Composition Reality
+
+![Insight 1+2](Images/Insights/Insight%203.png)
+
 Renewable growth is driven primarily by biomass, not solar or wind, highlighting a gap between perception and actual contribution.
 
 ---
 
 ### Seasonal Demand Volatility
+
+![Insight 1+2](Images/Insights/Insight%204.png)
+
 Residential consumption spikes significantly during summer and winter, creating predictable operational stress periods.
 
 ---
 
 ### Structural Trade Shift
+
+![Insight 1+2](Images/Insights/Insight%205.png)
+
 The U.S. transitioned from a net importer to a net exporter around 2019, driven by increased domestic production.
 
 ---
