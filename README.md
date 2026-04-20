@@ -1,191 +1,183 @@
-Energy Intelligence Dashboard 
+# Energy Intelligence Dashboard  
+### End-to-End Data Modeling, Analytics, and AI-Assisted Insight Generation
 
-End-to-End Data Modeling, Analytics, and AI-Assisted Insight Generation 
+---
 
-Overview 
+## Overview
 
-This project delivers a fully structured energy intelligence platform designed to analyze production, consumption, imports, exports, and energy mix across both long-term and monthly time horizons. 
+This project delivers a fully structured energy intelligence platform designed to analyze production, consumption, imports, exports, and energy mix across both long-term and monthly time horizons.
 
-It demonstrates the ability to transform complex, multi-granularity datasets into a scalable analytical model and deliver executive-level insights that support strategic decision-making. 
+It demonstrates the ability to transform complex, multi-granularity datasets into a scalable analytical model and deliver executive-level insights that support strategic decision-making.
 
-Executive Summary 
+---
 
-Energy demand is highly sensitive to macroeconomic and societal disruptions  
+## Executive Summary
 
-Long-term consumption growth has plateaued, indicating possible efficiency gains  
+- Energy demand is highly sensitive to macroeconomic and societal disruptions  
+- Long-term consumption growth has plateaued, indicating efficiency gains  
+- Renewable growth is occurring but remains concentrated in biomass  
+- Residential consumption introduces significant seasonal volatility  
+- The U.S. has transitioned from a net energy importer to a net exporter  
 
-Renewable growth is occurring but remains concentrated in biomass  
+---
 
-Residential consumption introduces significant seasonal volatility  
+## Executive Dashboard
 
-The U.S. has transitioned from a net energy importer to a net exporter 
-
- 
-
-Executive Dashboard 
-
-Executive Overview — Current Energy Position 
+### Executive Overview — Current Energy Position
 
 ![US Energy Position](Images/Dashboard/US%20Energy%20Position.png)
 
-What this shows: 
+**What this shows:**
+- Total production vs consumption alignment  
+- Net supply position and variance  
+- Energy mix distribution and sector consumption  
 
-Total production vs consumption alignment  
+**Executive takeaway:**
+This page provides an immediate understanding of whether the system is balanced, where demand is concentrated, and how supply is structured.
 
-Net supply position and variance  
+---
 
-Energy mix distribution and sector consumption 
-
-Executive takeaway: This page provides an immediate understanding of whether the system is balanced, where demand is concentrated, and how supply is structured. 
-
-Production & Supply — Long-Term Structural Trends 
+## Production & Supply — Long-Term Structural Trends
 
 ![Energy Supply & Trade Position](Images/Dashboard/Energy%20Supply%20&%20Trade%20Position.png)
 
-What this shows: 
+**What this shows:**
+- Long-term production growth by source  
+- Relative contribution of energy sources  
+- Trade dynamics (imports vs exports)  
 
-Long-term production growth by source  
+**Executive takeaway:**
+Energy production has evolved significantly, with natural gas emerging as the dominant source. Trade dynamics show a transition toward energy independence.
 
-Relative contribution of energy sources  
+---
 
-Trade dynamics (imports vs exports) 
-
-Executive takeaway: Energy production has evolved significantly, with natural gas emerging as the dominant source. Trade dynamics show a transition toward energy independence. 
-
-Consumption by Sector — Behavioral & Seasonal Patterns 
+## Consumption by Sector — Behavioral & Seasonal Patterns
 
 ![Demand Analysis by Sector](Images/Dashboard/Demand%20Analysis%20by%20Sector.png)
 
-What this shows: 
+**What this shows:**
+- Sector-level consumption trends  
+- Seasonal fluctuations in demand  
+- Year-over-year consumption changes  
 
-Sector-level consumption trends  
+**Executive takeaway:**
+Residential demand introduces predictable but significant seasonal volatility, while industrial and transportation sectors remain more stable drivers of baseline consumption.
 
-Seasonal fluctuations in demand  
+---
 
-Year-over-year consumption changes 
-
-Executive takeaway: Residential demand introduces predictable but significant seasonal volatility, while industrial and transportation sectors remain more stable drivers of baseline consumption. 
-
-Supply Balance & Reconciliation — System Integrity 
+## Supply Balance & Reconciliation — System Integrity
 
 ![Supply-Demand Balance & System Integrity](Images/Dashboard/Supply-Demand%20Balance%20&%20System%20Integrity.png)
 
-What this shows: 
+**What this shows:**
+- Net supply vs consumption alignment  
+- Variance and reconciliation across components  
+- Import/export contribution to balancing supply  
 
-Net supply vs consumption alignment  
+**Executive takeaway:**
+The system remains tightly balanced overall, with recent years showing a shift toward net export positioning — a structural change in energy independence.
 
-Variance and reconciliation across components  
+---
 
-Import/export contribution to balancing supply 
-
-Executive takeaway: The system remains tightly balanced overall, with recent years showing a shift toward net export positioning — a structural change in energy independence. 
-
-Monthly Detail (1973+) — Operational Trends & Rolling Stability 
+## Monthly Detail (1973+) — Operational Trends & Rolling Stability
 
 ![Operation Trends & Short-Term Dynamics](Images/Dashboard/Operation%20Trends%20&%20Short-Term%20Dynamics.png)
 
-What this shows: 
+**What this shows:**
+- Monthly production and consumption trends since 1973  
+- Short-term fluctuations in energy demand and supply  
+- Rolling 12-month production vs net supply to smooth volatility  
+- Latest monthly KPIs for real-time system position  
 
-Monthly production and consumption trends since 1973 
+**Executive takeaway:**
+While long-term trends suggest stability, monthly data reveals meaningful short-term variability. The rolling 12-month view highlights underlying stability while exposing periods where production and consumption diverge, signaling potential operational stress.
 
-Short-term fluctuations in energy demand and supply  
+**Why this matters:**
+- Identifies short-term imbalances not visible in annual trends  
+- Supports near-term forecasting and supply planning decisions  
+- Highlights divergence between production and consumption trends  
+- Provides real-time visibility into current system performance
 
-Rolling 12-month production vs 12-month consumption to smooth volatility 
+---
 
-Latest monthly KPIs for real-time system position 
+## Data Model
 
-Executive takeaway: While long-term trends suggest stability, monthly data reveals meaningful short-term variability. The rolling 12-month view highlights underlying stability while exposing periods where production and consumption diverge, signaling potential operational stress. 
+A star schema model was implemented to ensure scalability and performance.
 
-Data Model 
+- Fact Tables: Production, Consumption, Trade  
+- Dimensions: Date, Energy Source, Energy Category  
 
-A star schema model was implemented to ensure scalability and performance. 
+This structure ensures consistent filtering, accurate aggregation, and flexibility across time granularities.
 
-Fact Tables: Production, Consumption, Trade  
+---
 
-Dimensions: Date, Energy Source, Energy Category, Sector 
+## Key Metrics (DAX)
 
-This structure ensures consistent filtering, accurate aggregation, and flexibility across time granularities. 
+- Total Production  
+- Total Consumption  
+- Net Imports  
+- Energy Mix (%)  
+- Source Contribution  
 
-Key Metrics (DAX) 
+Measures were designed to remain accurate across both annual and monthly datasets.
 
-Total Production  
+---
 
-Total Consumption  
+## Key Insights
 
-Net Imports  
+### Macroeconomic Sensitivity
+Energy demand declines align with major events:
+- 1979–1983 energy crisis  
+- 2007–2009 recession  
+- 2020 COVID-19 disruption  
 
-Energy Mix (%)  
+---
 
-Source Contribution 
+### Efficiency-Driven Plateau
+Post-2009, energy consumption stabilizes despite continued economic growth, indicating improvements in energy efficiency.
 
-Measures were designed to remain accurate across both annual and monthly datasets. 
+---
 
-Key Insights 
+### Renewable Composition Reality
+Renewable growth is driven primarily by biomass, not solar or wind, highlighting a gap between perception and actual contribution.
 
-Macroeconomic Sensitivity 
+---
 
- 
+### Seasonal Demand Volatility
+Residential consumption spikes significantly during summer and winter, creating predictable operational stress periods.
 
-Energy demand declines align with major events: 
+---
 
-1979–1983 energy crisis  
+### Structural Trade Shift
+The U.S. transitioned from a net importer to a net exporter around 2019, driven by increased domestic production.
 
-2007–2009 recession  
+---
 
-2020 COVID-19 disruption 
+## AI Collaboration
 
-Efficiency-Driven Plateau 
+AI was used to accelerate development across:
 
-Post-2009, energy consumption stabilizes despite continued economic growth, indicating possible improvements in energy efficiency. 
+- Data modeling design  
+- DAX optimization  
+- Dashboard structuring  
+- Insight refinement  
 
-Renewable Composition Reality 
+All outputs were validated and refined to ensure accuracy and business relevance.
 
- 
+---
 
-Renewable growth is driven primarily by biomass, not solar or wind, highlighting a gap between perception and actual contribution. 
+## Tools & Technologies
 
-Seasonal Demand Volatility 
+- Power BI  
+- DAX  
+- Data Modeling (Star Schema)  
+- Excel  
+- AI-assisted development  
 
- 
+---
 
-Residential consumption spikes significantly during summer and winter, creating predictable operational stress periods. 
+## Final Note
 
-Structural Trade Shift 
+This project demonstrates the ability to move beyond reporting and build a structured decision-support system.
 
- 
-
-The U.S. transitioned from a net importer to a net exporter around 2019, driven by increased domestic production. 
-
-AI Collaboration 
-
-AI was used to accelerate development across: 
-
-Data modeling design  
-
-DAX optimization  
-
-Dashboard structuring  
-
-Insight refinement 
-
-All outputs were validated and refined to ensure accuracy and business relevance. 
-
-Tools & Technologies 
-
-Power BI  
-
-DAX  
-
-Data Modeling (Star Schema)  
-
-Excel  
-
-AI-assisted development 
-
-Final Note 
-
-This project demonstrates the ability to move beyond reporting and build a structured decision-support system. 
-
-The focus is not just on what the data shows — but on what decisions it enables. 
-
- 
+The focus is not just on what the data shows — but on what decisions it enables.
