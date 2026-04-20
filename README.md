@@ -7,7 +7,7 @@
 
 This project delivers a fully structured energy intelligence platform designed to analyze production, consumption, imports, exports, and energy mix across both long-term and monthly time horizons.
 
-It demonstrates the ability to transform complex, multi-granularity datasets into a scalable analytical model and deliver executive-level insights that support strategic decision-making.
+It demonstrates the ability to transform complex, multi-granular datasets into a scalable analytical model and deliver executive-level insights that support strategic decision-making.
 
 ---
 
