@@ -26,6 +26,8 @@ Executive Dashboard
 
 Executive Overview — Current Energy Position 
 
+![US Energy Position](Images/Dashboard/US Energy Position.png)
+
 What this shows: 
 
 Total production vs consumption alignment  
