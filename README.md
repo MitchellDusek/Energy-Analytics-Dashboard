@@ -128,6 +128,9 @@ Measures were designed to remain accurate across both annual and monthly dataset
 ## Key Insights
 
 ### Macroeconomic Sensitivity
+
+![Insight 1+2](Images/Insights/Insight%201+2.png)
+
 Energy demand declines align with major events:
 - 1979–1983 energy crisis  
 - 2007–2009 recession  
