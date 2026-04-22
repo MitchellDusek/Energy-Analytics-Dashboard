@@ -20,6 +20,7 @@ This project is designed for professionals and stakeholders who rely on data to 
 - Anyone seeking a clear, data-driven view of U.S. energy systems and long-term trends  
 
 The analysis is structured to provide both technical depth and accessible insights, making it relevant across a wide range of audiences.
+
 ---
 
 ## Executive Summary
