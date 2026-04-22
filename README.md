@@ -150,8 +150,6 @@ Energy demand declines align with major events:
 - 2007–2009 recession  
 - 2020 COVID-19 disruption  
 
----
-
 ### Efficiency-Driven Plateau
 Post-2009, energy consumption stabilizes despite continued economic growth, indicating improvements in energy efficiency.
 
