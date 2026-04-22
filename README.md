@@ -1,6 +1,12 @@
 # Energy Intelligence Dashboard  
 ### End-to-End Data Modeling, Analytics, and AI-Assisted Insight Generation
 
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/Language-DAX-2C2C2C)
+![Data Modeling](https://img.shields.io/badge/Focus-Data%20Modeling-blue)
+![Business Intelligence](https://img.shields.io/badge/Type-Business%20Intelligence-5A9)
+![AI Assisted](https://img.shields.io/badge/AI-Assisted%20Development-8A2BE2)
+
 > Designed for both technical and non-technical audiences, delivering clear, executive-level insights without requiring a data background.
 ---
 
@@ -42,7 +48,7 @@ It demonstrates the ability to transform complex datasets into a scalable analyt
 - Net supply position and variance  
 - Energy mix distribution and sector consumption  
 
-**Executive takeaway:**
+**Takeaway:**
 This page provides an immediate understanding of whether the system is balanced, where demand is concentrated, and how supply is structured.
 
 ---
@@ -56,7 +62,7 @@ This page provides an immediate understanding of whether the system is balanced,
 - Relative contribution of energy sources  
 - Trade dynamics (imports vs exports)  
 
-**Executive takeaway:**
+**Takeaway:**
 Energy production has evolved significantly, with natural gas emerging as the dominant source. Trade dynamics show a transition toward energy independence.
 
 ---
@@ -70,7 +76,7 @@ Energy production has evolved significantly, with natural gas emerging as the do
 - Seasonal fluctuations in demand  
 - Year-over-year consumption changes  
 
-**Executive takeaway:**
+**Takeaway:**
 Residential demand introduces predictable but significant seasonal volatility, while industrial and transportation sectors remain more stable drivers of baseline consumption.
 
 ---
@@ -84,7 +90,7 @@ Residential demand introduces predictable but significant seasonal volatility, w
 - Variance and reconciliation across components  
 - Import/export contribution to balancing supply  
 
-**Executive takeaway:**
+**Takeaway:**
 The system remains tightly balanced overall, with recent years showing a shift toward net export positioning — a structural change in energy independence.
 
 ---
@@ -97,9 +103,9 @@ The system remains tightly balanced overall, with recent years showing a shift t
 - Monthly production and consumption trends since 1973  
 - Short-term fluctuations in energy demand and supply  
 - Rolling 12-month production vs Consumption to smooth volatility  
-- Latest monthly KPIs for real-time system position  
+- Latest monthly KPIs (Key Performance Indicatior) for real-time system position  
 
-**Executive takeaway:**
+**Takeaway:**
 While long-term trends suggest stability, monthly data reveals meaningful short-term variability. The rolling 12-month view highlights underlying stability while exposing periods where production and consumption diverge, signaling potential operational stress.
 
 ---
@@ -108,7 +114,7 @@ While long-term trends suggest stability, monthly data reveals meaningful short-
 
 ![Data Model](Images/Dashboard/Data%20Model.png)
 
-A star schema model was implemented to ensure scalability and performance.
+A star schema model (Database structure keeping data organized/fast) was implemented to ensure scalability and performance.
 
 - Fact Tables: Production, Consumption, Trade  
 - Dimensions: Date, Energy Source, Energy Category  
