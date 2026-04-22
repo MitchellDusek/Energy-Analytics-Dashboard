@@ -2,7 +2,7 @@
 ### End-to-End Data Modeling, Analytics, and AI-Assisted Insight Generation
 
 ![Power BI](https://img.shields.io/badge/Tool-Power%20BI-F2C811?logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/Language-DAX-2C2C2C)
+![Analytics](https://img.shields.io/badge/Focus-Advanced%20Analytics-darkgreen)
 ![Data Modeling](https://img.shields.io/badge/Focus-Data%20Modeling-blue)
 ![Business Intelligence](https://img.shields.io/badge/Type-Business%20Intelligence-5A9)
 ![AI Assisted](https://img.shields.io/badge/AI-Assisted%20Development-8A2BE2)
@@ -191,16 +191,6 @@ AI was used to accelerate development across:
 - Insight refinement  
 
 All outputs were validated and refined to ensure accuracy and business relevance.
-
----
-
-## Tools & Technologies
-
-- Power BI  
-- DAX  
-- Data Modeling
-- Excel  
-- AI-assisted development  
 
 ---
 
