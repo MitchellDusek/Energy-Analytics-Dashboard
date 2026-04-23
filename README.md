@@ -7,7 +7,7 @@
 ![Business Intelligence](https://img.shields.io/badge/Type-Business%20Intelligence-5A9)
 ![AI Assisted](https://img.shields.io/badge/AI-Assisted%20Development-8A2BE2)
 
-> Designed for both technical and non-technical audiences, delivering clear, executive-level insights without requiring a data background.
+> Designed for both technical and non-technical audiences, delivering clear, insights without requiring a data background.
 ---
 
 ## Overview
@@ -27,7 +27,7 @@ It demonstrates the ability to transform complex datasets into a scalable analyt
 
 ---
 
-## Executive Summary
+## Key Findings at a Glance
 
 - Energy demand is highly sensitive to macroeconomic and societal disruptions  
 - Long-term demand growth has plateaued, indicating possible efficiency gains  
@@ -48,7 +48,7 @@ It demonstrates the ability to transform complex datasets into a scalable analyt
 - Net supply position and variance  
 - Energy mix distribution and sector consumption  
 
-**Takeaway:**
+**Summary:**
 This page provides an immediate understanding of whether the system is balanced, where demand is concentrated, and how supply is structured.
 
 ---
@@ -62,7 +62,7 @@ This page provides an immediate understanding of whether the system is balanced,
 - Relative contribution of energy sources  
 - Trade dynamics (imports vs exports)  
 
-**Takeaway:**
+**Summary:**
 Energy production has evolved significantly, with natural gas emerging as the dominant source. Trade dynamics show a transition toward energy independence.
 
 ---
@@ -76,7 +76,7 @@ Energy production has evolved significantly, with natural gas emerging as the do
 - Seasonal fluctuations in demand  
 - Year-over-year consumption changes  
 
-**Takeaway:**
+**Summary:**
 Residential demand introduces predictable but significant seasonal volatility, while industrial and transportation sectors remain more stable drivers of baseline consumption.
 
 ---
@@ -90,7 +90,7 @@ Residential demand introduces predictable but significant seasonal volatility, w
 - Variance and reconciliation across components  
 - Import/export contribution to balancing supply  
 
-**Takeaway:**
+**Summary:**
 The system remains tightly balanced overall, with recent years showing a shift toward net export positioning — a structural change in energy independence.
 
 ---
@@ -105,7 +105,7 @@ The system remains tightly balanced overall, with recent years showing a shift t
 - Rolling 12-month production vs Consumption to smooth volatility  
 - Latest monthly KPIs (Key Performance Indicatior) for real-time system position  
 
-**Takeaway:**
+**Summary:**
 While long-term trends suggest stability, monthly data reveals meaningful short-term variability. The rolling 12-month view highlights underlying stability while exposing periods where production and consumption diverge, signaling potential operational stress.
 
 ---
@@ -181,14 +181,16 @@ The U.S. transitioned from a net importer to a net exporter around 2019, driven 
 
 ## AI Collaboration
 
-AI was used to accelerate development across:
+AI tools were used throughout this project to accelerate development and enhance analytical quality.
 
-- Data modeling design  
-- DAX optimization  
-- Dashboard structuring  
-- Insight refinement  
+- Assisted with DAX measure development and optimization  
+- Supported data modeling decisions and validation  
+- Helped structure dashboards for clarity and usability  
+- Used to pressure-test insights against underlying data  
 
-All outputs were validated and refined to ensure accuracy and business relevance.
+All outputs were reviewed, validated against source data, and refined as needed to ensure accuracy and business relevance.
+
+The analytical framing, data sourcing, and final design decisions were independently developed.
 
 ---
 
