@@ -7,7 +7,7 @@
 ![Business Intelligence](https://img.shields.io/badge/Type-Business%20Intelligence-5A9)
 ![AI Assisted](https://img.shields.io/badge/AI-Assisted%20Development-8A2BE2)
 
-> Designed for both technical and non-technical audiences, delivering clear, insights without requiring a data background.
+> Designed for both technical and non-technical audiences, delivering clear insights without requiring a data background.
 ---
 
 ## Overview
@@ -39,7 +39,7 @@ The goal was to take a complex, multi-granularity dataset and structure it into 
 
 ## Dashboard Overview
 
-### US Energy Position
+### Energy Position Overview
 
 ![US Energy Position](Images/Dashboard/US%20Energy%20Position.png)
 
@@ -53,7 +53,7 @@ This page provides an immediate understanding of whether the system is balanced,
 
 ---
 
-## Energy Supply & Trade Positions
+## Energy Supply & Trade Position
 
 ![Energy Supply & Trade Position](Images/Dashboard/Energy%20Supply%20&%20Trade%20Position.png)
 
@@ -95,7 +95,7 @@ The system remains tightly balanced overall, with recent years showing a shift t
 
 ---
 
-## Operation Trends & Short-Term Dynamics
+## Operational Trends & Short-Term Dynamics
 
 ![Operation Trends & Short-Term Dynamics](Images/Dashboard/Operation%20Trends%20&%20Short-Term%20Dynamics.png)
 
@@ -103,7 +103,7 @@ The system remains tightly balanced overall, with recent years showing a shift t
 - Monthly production and consumption trends since 1973  
 - Short-term fluctuations in energy demand and supply  
 - Rolling 12-month production vs Consumption to smooth volatility  
-- Latest monthly KPIs (Key Performance Indicatior) for real-time system position  
+- Latest monthly KPIs (Key Performance Indicators) for real-time system position  
 
 **Summary:**
 While long-term trends suggest stability, monthly data reveals meaningful short-term variability. The rolling 12-month view highlights underlying stability while exposing periods where production and consumption diverge, signaling potential operational stress.
@@ -123,7 +123,7 @@ This structure ensures consistent filtering, accurate aggregation, and flexibili
 
 ---
 
-## Key Metrics (DAX - PowerBI formula language)
+## Key Metrics (DAX - Power BI formula language)
 
 - Total Production  
 - Total Consumption  
