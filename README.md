@@ -22,7 +22,7 @@ It demonstrates the ability to transform complex datasets into a scalable analyt
 
 - Energy analysts evaluating production, consumption, and trade dynamics  
 - Business intelligence professionals focused on data modeling and reporting  
-- Decision-makers and strategists interested in energy trends, policy implications, and risk exposure  
+- Leaders and strategists interested in energy trends, policy implications, and risk exposure  
 - Anyone seeking a clear, data-driven view of U.S. energy systems
 
 ---
@@ -184,7 +184,7 @@ AI tools were used throughout this project to accelerate development and enhance
 - Assisted with DAX measure development and optimization  
 - Supported data modeling decisions and validation  
 - Helped structure dashboards for clarity and usability  
-- Used to pressure-test insights against underlying data  
+- Used to test and validate insights against the underlying data    
 
 All outputs were reviewed, validated against source data, and refined as needed to ensure accuracy and business relevance.
 
@@ -194,6 +194,6 @@ The analytical framing, data sourcing, and final design decisions were independe
 
 ## Final Note
 
-This project demonstrates the ability to move beyond reporting and build a structured decision-support system.
+This project pushed me to think beyond building a dashboard and focus on how the analysis would actually be used.
 
-The focus is not just on what the data shows — but on what decisions it enables.
+The goal was not just to present data, but to structure it in a way that supports clear, informed actions.
