@@ -14,7 +14,7 @@
 
 This project analyzes U.S. energy production, consumption, imports, exports, and energy mix across both long-term and monthly time horizons.
 
-The goal was to take a complex, multi-granularity dataset and structure it into a dashboard that clearly shows where the energy system stands and how it is evolving over time.
+The goal was to take a complex dataset and structure it into a dashboard that quickly shows where the energy system stands and how it is evolving over time.
 
 ---
 
@@ -67,9 +67,9 @@ Highlights how energy is produced and how trade impacts total supply, helping id
 
 ---
 
-## Demand Analysis by Sector
+## Energy Demand by Sector
 
-![Demand Analysis by Sector](Images/Dashboard/Demand%20Analysis%20by%20Sector.png)
+![Energy Demand by Sector](Images/Dashboard/Demand%20Analysis%20by%20Sector.png)
 
 **Key Elements:**
 - Sector-level consumption trends  
@@ -97,7 +97,7 @@ Explains how total supply meets demand and identifies where imbalances occur, pr
 
 ## Operational Trends & Short-Term Dynamics
 
-![Operation Trends & Short-Term Dynamics](Images/Dashboard/Operation%20Trends%20&%20Short-Term%20Dynamics.png)
+![Operational Trends & Short-Term Dynamics](Images/Dashboard/Operation%20Trends%20&%20Short-Term%20Dynamics.png)
 
 **Key Elements:**
 - Monthly production and consumption trends since 1973  
@@ -213,6 +213,6 @@ The analytical framing, data sourcing, and final design decisions were independe
 
 ## Final Note
 
-This project pushed me to think beyond building a dashboard and focus on how the analysis would actually be used.
+This project challenged me to move beyond building visuals and focus on how the analysis would support real decisions.
 
-The goal was not just to present data, but to structure it in a way that supports clear, informed actions.
+Rather than simply resenting data, I focused on structureing it in a way that supports clear, informed actions.
