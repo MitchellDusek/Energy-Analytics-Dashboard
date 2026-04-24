@@ -74,7 +74,7 @@ Highlights how energy is produced and how trade impacts total supply, helping id
 ## Energy Demand by Sector
 
 <p align="center">
-  <img src="Images/Dashboard/Demand%20Analysis%20by%20Sector.png" width="900"/>
+  <img src="Images/Dashboard/Energy%20Demand%20by%20Sector.png" width="900"/>
 </p>
 
 **Key Elements:**
@@ -106,7 +106,7 @@ Explains how total supply meets demand and identifies where imbalances occur, pr
 ## Operational Trends & Short-Term Dynamics
 
 <p align="center">
-  <img src="Images/Dashboard/Operation%20Trends%20&%20Short-Term%20Dynamics.png" width="900"/>
+  <img src="Images/Dashboard/Operational%20Trends%20&%20Short-Term%20Dynamics.png" width="900"/>
 </p>
 
 **Key Elements:**
