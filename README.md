@@ -215,4 +215,4 @@ The analytical framing, data sourcing, and final design decisions were independe
 
 This project challenged me to move beyond building visuals and focus on how the analysis would support real decisions.
 
-Rather than simply resenting data, I focused on structureing it in a way that supports clear, informed actions.
+Rather than simply presenting data, I focused on structuring it in a way that supports clear, informed actions.
