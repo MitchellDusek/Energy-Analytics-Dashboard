@@ -43,7 +43,7 @@ The goal was to take a complex, multi-granularity dataset and structure it into 
 
 ![US Energy Position](Images/Dashboard/US%20Energy%20Position.png)
 
-**What this shows:**
+**Key Elements:**
 - Total production vs consumption alignment  
 - Net supply position and variance  
 - Energy mix distribution and sector consumption  
