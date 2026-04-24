@@ -114,16 +114,16 @@ While long-term trends suggest stability, monthly data reveals meaningful short-
 
 ![Data Model](Images/Dashboard/Data%20Model.png)
 
-A star schema model (Database structure keeping data organized/fast) was implemented to ensure scalability and performance.
+A star schema model was implemented to support scalability and performance throughout the report.
 
 - Fact Tables: Production, Consumption, Trade  
 - Dimensions: Date, Energy Source, Energy Category  
 
-This structure ensures consistent filtering, accurate aggregation, and flexibility across time granularities.
+This structure ensures clear relationships, consistent filtering, accurate aggregation, and flexibility across time granularities.
 
 ---
 
-## Key Metrics (DAX - Power BI formula language)
+## Key Metrics
 
 - Total Production  
 - Total Consumption  
@@ -146,34 +146,53 @@ Detailed DAX logic is available upon request.
 Energy demand declines align with major events:
 - 1979–1983 energy crisis  
 - 2007–2009 recession  
-- 2020 COVID-19 disruption  
+- 2020 COVID-19 disruption
+
+Energy demand is highly responsive to external events, making it vulnerable to sudden declines during economic disruptions. Organizations must incorporate these risks into forecasting and planning, as demand decline can impact revenue, operations, and resource allocation. 
 
 ### Efficiency-Driven Plateau
-Post-2009, energy consumption stabilizes despite continued economic growth, indicating improvements in energy efficiency.
+
+Post-2009, energy consumption stabilizes despite continued economic growth, indicating improvements in energy efficiency. This marks a structural shift where economic growth no longer directly drives demand. Energy producers must pivot toward efficiency and optimization rather than volume expansion, while consumer-facing companies face increasing pressure to improve product efficiency as energy costs become a competitive factor. 
 
 ---
 
 ### Renewable Composition Reality
 
-![Insight 1+2](Images/Insights/Insight%203.png)
+![Insight 3](Images/Insights/Insight%203.png)
 
-Renewable growth is driven primarily by biomass, not solar or wind, highlighting a gap between perception and actual contribution.
+While renewable energy is expanding, it remains heavily concentrated in biomass rather than more scalable sources such as solar and wind. This indicates that the transition away from fossil fuels is still in its early stages, with continued reliance on limited and less sustainable energy sources. As demand for long-term energy stability increases, this creates both risk and opportunity — risk through overreliance on a single renewable source, and opportunity for significant expansion in solar and wind, where future investment and innovation are likely to accelerate. 
 
 ---
 
 ### Seasonal Demand Volatility
 
-![Insight 1+2](Images/Insights/Insight%204.png)
+![Insight 4](Images/Insights/Insight%204.png)
 
-Residential consumption spikes significantly during summer and winter, creating predictable operational stress periods.
+Seasonal demand spikes driven by temperature extremes create predictable periods of stress on energy systems. This allows organizations to plan ahead by identifying potential failure points, allocating resources more effectively, and improving response times during high-demand periods. 
+
+Operations & Reliability: Anticipate system stress, position personnel strategically, and reduce downtime during peak usage  
+
+Cost Management & Pricing: Implement time-based pricing or incentives to spread demand and reduce peak load pressure  
+
+Product Strategy: Invest in energy-efficient technologies that help customers reduce consumption during high-cost periods  
+
+Sales & Marketing: Time promotions and pricing strategies around peak usage cycles to drive demand and improve margins 
 
 ---
 
 ### Structural Trade Shift
 
-![Insight 1+2](Images/Insights/Insight%205.png)
+![Insight 5](Images/Insights/Insight%205.png)
 
-The U.S. transitioned from a net importer to a net exporter around 2019, driven by increased domestic production.
+This shift changes the U.S. energy system from supply-dependent to supply-driven, reducing reliance on external sources while opening the door to greater global market participation. It creates new opportunities across multiple parts of the value chain, from production to infrastructure and investment. 
+
+- **Energy Producers:** Export capability enables access to global markets, creating new revenue streams and strengthening long-term competitive positioning  
+
+- **Utilities & Grid Operators:** Greater domestic supply stability improves planning accuracy and reduces disruption risk 
+
+- **Logistics & Infrastructure:** Increased production and export volume drives demand for transportation, storage, and distribution, creating expansion opportunities  
+
+- **Investment & Finance:** The shift introduces opportunities to invest in energy production, infrastructure, and global market participation, supporting portfolio growth and diversification
 
 ---
 
